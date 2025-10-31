@@ -30,7 +30,6 @@ class WordReverser
     {
         $chars = preg_split('//u', $word, -1, PREG_SPLIT_NO_EMPTY);
 
-        // Находим позиции букв
         $letterPositions = [];
         $letters = [];
 
