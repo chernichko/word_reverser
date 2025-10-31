@@ -1,0 +1,12 @@
+{
+    "name": "root/wordreverser",
+    "type": "project",
+    "require": {
+      "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WordReverser\\": "src/"
+        }
+    }
+}
